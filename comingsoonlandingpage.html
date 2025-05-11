@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page
+
+    </title>
+
+    <style>
+        html,body{
+            margin:0;
+            padding:0;
+            font-family: Arial, Helvetica, sans-serif;
+            height:100%;
+            
+        }
+
+        .container{
+            background: linear-gradient(135deg, #8a2be2, #4169e1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100%;
+    
+
+
+
+        }
+        .content{
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 2rem;
+            border-radius: 7px;
+            max-width: 400px;
+            
+        }
+        .logo{
+            width: 150px;
+            height:100px;
+            border-radius: 8px;
+            
+
+
+        }
+
+        h1{
+            color: #333;
+            margin-bottom: 30px;
+
+        }
+        p{
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+
+        }
+        input[type="email"]{
+            padding: 5px;
+            border-radius: 6px;
+            border: solid #591717;
+            margin-bottom: 10px;
+
+            
+
+
+        }
+
+        button{
+            padding: 0.5rem;
+            background-color: navy;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.6s ease-in-out;
+
+
+
+        }
+
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(138, 7, 138) ;
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm1HR6VwJ4JPyj9eFNhLfdQOwRPRoaleHmiQ&s"class="logo", alt="Logo">
+        <h1>Coming soon</h1>
+        <p>We're working hard to be here soon. Stay Tuned! </p>
+
+        <form id="notify_form">
+            <input type="email" placeholder="Enter your Email" required />
+            <button type="submit">Notify Me</button>
+        </form>
+        </div>
+
+    </div>
+    
+</body>
+</html>
